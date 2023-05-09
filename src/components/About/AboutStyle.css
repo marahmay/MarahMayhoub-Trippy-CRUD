@@ -1,0 +1,12 @@
+
+.aboutHero a{
+    display: none;
+}
+
+.AboutData{
+    padding: 40px 70px;
+}
+.AboutDataDetails{
+    text-align: start;
+}
+

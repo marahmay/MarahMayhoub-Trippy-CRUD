@@ -1,0 +1,107 @@
+.destination {
+    margin: 50px 0;
+}
+
+
+.des-data {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 30px;
+}
+
+.des-data-reverse {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 30px;
+}
+
+.des-data-reverse .des-text {
+    order: 2;
+}
+
+.des-data-reverse .desImg {
+    order: 1;
+}
+
+.desImg {
+    display: flex;
+    gap: 10px;
+}
+
+.desImg img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+
+
+.desImg img:nth-child(1) {
+    margin-top: 15px;
+}
+
+.des-text {
+    width: 40%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.des-text p {
+    text-align: justify;
+}
+
+
+@media (max-width:1100px) {
+
+
+    .destination {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .des-data {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .des-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .desImg {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .desImg img {
+        width: 200px;
+        border-radius: 5px;
+    
+    }
+
+
+    .des-data-reverse {
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 70px 30px;
+        gap: 50px;
+        align-items: center;
+    }
+
+    
+.des-data-reverse .des-text {
+    order: 1;
+}
+
+.des-data-reverse .desImg {
+    order: 2;
+}
+
+
+
+}

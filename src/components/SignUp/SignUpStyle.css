@@ -1,0 +1,10 @@
+
+
+.SignUpHero a {
+    display: none;
+}
+
+
+.RegisterForm .subject , .RegisterForm textarea{
+    display: none;
+}

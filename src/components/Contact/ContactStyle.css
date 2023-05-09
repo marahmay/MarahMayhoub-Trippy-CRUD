@@ -1,0 +1,7 @@
+.ContactHero a{
+    display: none;
+}
+
+.SendForm .pass , .SendForm .re_pass {
+    display: none;
+}
