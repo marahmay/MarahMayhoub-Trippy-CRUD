@@ -2,7 +2,7 @@
   "name": "myreact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marahmay.github.io/MarahMayhoub-TrippyTask7i",
+  "homepage": "https://marahmay.github.io/MarahMayhoub-TrippyTask7",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.16.5",
