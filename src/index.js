@@ -35,7 +35,7 @@ import EditProduct from './components/Products/editProduct';
 
 const router = createBrowserRouter([
   {
-    path: "/MarahMayhoub-Trippy-CRUD",
+    path: "/",
     element: <App/>,
     children:[
       {

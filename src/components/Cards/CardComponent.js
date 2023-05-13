@@ -28,7 +28,7 @@ function CardComponent({ data }) {
       <div className='j'>
         <h1>{data.name}</h1>
         <p>{data.description}</p>
-        <a href={`/edit/${data.id}`} className='btnEdit'>edit</a>
+        <a href={`MarahMayhoub-Trippy-CRUD/edit/${data.id}`} className='btnEdit'>edit</a>
         <button onClick={() => DeleteProduct(data.id)}  className="btnDelete">delete</button>
       </div>
     </div>
