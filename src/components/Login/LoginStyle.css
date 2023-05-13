@@ -1,0 +1,10 @@
+
+
+.LoginHero a {
+    display: none;
+}
+
+
+.LoginForm .subject , .LoginForm textarea , .LoginForm .name ,.LoginForm .re_pass{
+    display: none;
+}

@@ -22,5 +22,11 @@ export const MenuItems =[
         url : '/Contact',
         cName : 'nav-links',
         icon : 'fa-solid fa-address-book',
+    },
+    {
+        name : 'Products',
+        url : '/cards',
+        cName : 'nav-links',
+        icon : 'fa-solid fa-address-book',
     }
 ]

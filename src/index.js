@@ -9,7 +9,29 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import SignUp from './components/SignUp/SignUp';
+import Login from './components/Login/Login';
+import Cards from './components/Cards/Cards';
+import AddProduct from './components/Products/addProduct';
+import EditProduct from './components/Products/editProduct';
 // import 'bootstrap/dist/css/bootstrap.min.css'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const router = createBrowserRouter([
   {
@@ -35,6 +57,22 @@ const router = createBrowserRouter([
       {
         path: "/About",
         element:<About />,
+      },
+      {
+        path: "/Login",
+        element:<Login />,
+      },
+      {
+        path: "/cards",
+        element:<Cards />,
+      },
+      {
+        path: "add-product",
+        element:<AddProduct />,
+      },
+      {
+        path: "edit/:id",
+        element:<EditProduct />,
       },
 
     ]

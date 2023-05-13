@@ -24,7 +24,6 @@ const Contact = () => {
                     placeholderEmail=" Email"
                     placeholderMessage = "Message"
                     btnValue="Send Message"
-
                 />
             </div>
         </>
